@@ -1,0 +1,9 @@
+.blck {display:inline}
+.img_holder {height:300px;width:300px;overflow:hidden;border-radius:50em;border:10px solid #fff;background:#000;position:absolute;margin:20px;
+             box-shadow: -1px 4px 11px 6px #0000008c;}
+.body_pager {background:#0bacf97d;padding:20px;margin:10px;height:250px;margin-top:-10px;width:auto}
+.content {color:#fff;font-size:20px;float:righ;margin-right:10px;margin:10px;padding:20px}
+.cntnt_list {color:#fff;padding:20px;margin-left:50px}
+.cntnt_list li {position:relative;padding:20px;font-family: 'Kristen ITC';
+                font-size: 30px;margin-right:20px;transition:all 0.4s;cursor:pointer}
+.cntnt_list li:hover {background:#fff;color:#0bacf9;border-top-left-radius:50px;border-bottom-right-radius:50px}

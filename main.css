@@ -1,0 +1,22 @@
+body {direction:ltr;font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+          background:url('./bg1.png');background-repeat:no-repeat;background-attachment:fixed;margin:0;}
+a {text-decoration:none}
+
+input[type=text],input[type=password],input[type=number]
+{  
+    padding: 8px;padding-left:0px
+    }
+
+.header {height:80px;background:#fff;display:block;box-shadow: 3px 3px 20px 3px rgba(0,0,0,1);position:inherit;overflow:hidden;
+              display:block;}
+.heading {color:#0bacf9;font-family:'Kristen ITC';font-size:40px;padding:14px;margin-left:50px;letter-spacing:1px;font-weight:bold;position:absolute}
+
+
+.contact {float:right;color:#fff;margin-right:150px;height:auto:width:auto}
+li {display:inline-block;position:absolute}
+.cntc_links {margin-top:-08px}
+.cn_img {transition:all 0.4s;padding:10px;opacity:0.8}
+.cn_img:hover {transform: scale(1.5);cursor:pointer;opacity:1}
+
+
+
