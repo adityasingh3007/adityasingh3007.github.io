@@ -1,5 +1,6 @@
 body {direction:ltr;font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
-          background:url('./bg1.png');background-repeat:no-repeat;background-attachment:fixed;margin:0;}
+      background: url("./bg1.png") no-repeat fixed;
+      margin:0;}
 a {text-decoration:none}
 @font-face {
     font-family:Kristen ITC;
@@ -15,7 +16,7 @@ input[type=text],input[type=password],input[type=number]
     box-sizing:border-box;
    }
 .header {height:80px;background:#fff;display:block;box-shadow: 3px 3px 20px 3px rgba(0,0,0,1);position:inherit;overflow:hidden;
-              display:block;margin-top:20px}
+              display:block;margin-top:20px;}
 .heading {color:#0bacf9;font-family:'Kristen ITC';font-size:40px;padding:14px;margin-left:50px;letter-spacing:1px;font-weight:bold;position:absolute}
 .contact {float:right;color:#000;margin-right:50px;margin-top:0px}
 .header li {display:inline-block;margin-left:20px}
@@ -38,8 +39,6 @@ input[type=text],input[type=password],input[type=number]
    .mobile {display:block}
    .desktop {display:none}
 }
-
-
 
 
 

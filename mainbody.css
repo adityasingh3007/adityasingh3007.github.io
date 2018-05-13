@@ -1,17 +1,15 @@
-.blck {display:inline}
+.body_container {height: 100%;position: relative;}
 .div_head {font-size:3vw}
-.img_holder {width:25%;overflow:hidden;border-radius:50em;border:1vw solid #fff;background:#000;float:left;margin:20px;margin-left:50px;
-             box-shadow: -1px 4px 11px 6px #0000008c;background-repeat:no-repeat;    background-position-x: 30px;
-             background-position-y: 20px;vertical-align:middle}
-.img_holder:after {content:"";padding-bottom:100%;display:block;}
+.img_holder {position: absolute;display:block;top:50px;}
+.lalign {left:40px; !important}
+.ralign {right:40px !important}
 center {margin-left:-10px}
-.contnt {background-image:url(./my.jpg)}
-.ralign {float:right;margin-right:50px;}
 .body_pager {background:#0bacf97d;padding:20px;margin:10px;margin-top:-35px;width:auto}
 .content {color:#fff;font-size:3vw;float:righ;margin-right:10px;padding:20px}
-.cntnt_list {color:#fff;padding:20px;font-family: 'Kristen ITC';
-                font-size: 2.5vw;}
-.txt {font-size:1.5vw;    line-height: 3.5vw;}
+.cntnt_list {color:#fff;padding:20px;font-family: 'Kristen ITC';font-size: 2.5vw;}
+.abt {margin-right:20vw}
+.ed_leg {margin-left:150px}
+.txt {font-size:1.5vw;line-height: 3.5vw;}
 .cntnt_list li a{color:#fff}
 .cntnt_list li a:hover{color:#0bacf9}
 .cntnt_list li:hover a {color:#0bacf9}
@@ -29,7 +27,9 @@ ol li {display:block !important;text-align:right}
 .skill li {color:#fff;font-family:'Kristen ITC';padding:10px;font-size:1.5vw;margin-top:20px;display:inline-grid}
 @media (max-width: 520px) {
    .div_head {font-size:6vw}
-   .cntnt_list {font-size:5vw}
+   .cntnt_list {font-size:5vw;}
+   .abt {margin-right:0vw}
+   .ed_leg {margin-left:0px}
    .cntnt_list li {margin-top:10px;display:inherit}
    .txt {font-size:4vw;line-height:10vw;}
    .img_holder {display:none}
