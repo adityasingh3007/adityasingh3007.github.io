@@ -6,14 +6,14 @@
 center {margin-left:-10px}
 .body_pager {background:#0bacf97d;padding:20px;margin:10px;margin-top:-35px;width:auto}
 .content {color:#fff;font-size:3vw;float:righ;margin-right:10px;padding:20px}
-.cntnt_list {color:#fff;padding:20px;font-family: 'Kristen ITC';font-size: 2.5vw;}
+.cntnt_list {color:#fff;padding:15px;font-family: 'Kristen ITC';font-size: 2.5vw;}
 .abt {margin-right:20vw}
 .ed_leg {margin-left:150px}
 .txt {font-size:1.5vw;line-height: 3.5vw;}
 .cntnt_list li a{color:#fff}
 .cntnt_list li a:hover{color:#0bacf9}
 .cntnt_list li:hover a {color:#0bacf9}
-.cntnt_list li {position:relative;padding:20px;margin-right:20px;transition:all 0.4s;cursor:pointer;display:inline-block;margin-top:10px}
+.cntnt_list li {position:relative;padding:20px;margin-right:20px;transition:all 0.4s;cursor:pointer;display:inline-block;}
 .cntnt_list li:hover {background:#fff;color:#0bacf9;border-top-left-radius:50px;border-bottom-right-radius:50px;}
 .txt b {color:#000}
 .top_navig {height:80px;width:80px;overflow:hidden;border-radius:50em;margin:20px;transition:all 0.5s;

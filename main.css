@@ -1,5 +1,5 @@
 body {direction:ltr;font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
-      background: url("./bg1.png") no-repeat fixed;
+      background: url("./bg1.png") no-repeat fixed;background-size:cover;
       margin:0;}
 a {text-decoration:none}
 @font-face {
