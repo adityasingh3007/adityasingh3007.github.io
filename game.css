@@ -26,6 +26,9 @@
 .nam_submit:hover {transform:scale(1.2)}
 .result b {color:#0bacf9}
 .pg {width:100%}
+.footer li {display:inline-block}
+.footer a {color:#ddd;transition:all 0.5s}
+.footer a:hover {text-decoration:underline}
 @media (max-width: 520px) {
    .given_text {font-size:12px}
     #user_text {font-size: 12px;
