@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+<title>Aditya Singh | Game</title>
+<link rel="icon" type="image/ico" href="./favicon.ico">
+<head>
+<link href="./main.css" rel="stylesheet">
+<link href="./game.css" rel="stylesheet">
+<script src="./game.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="header" id="ph">
+<a href="./index.html">
+<div style="position:absolute">
+<div class="heading">Aditya<label style="cursor:pointer;color:#000;font-weight:bold">Singh</label></div>
+</div></a>
+
+<div class="contact">
+<div class="desktop">
+<ul>
+<li><a href="https://www.facebook.com/adityasingh300799" target="_blank"><img src="./fb.png" style="width:50px;"></a></li>
+<li><a href="https://plus.google.com/u/0/104116196371675717078" target="_blank"><img src="./google.jpg" style="width:50px"></a></li>
+</div>
+<div class="mobile">
+<ul>
+<li class="fb"><a href="https://www.facebook.com/adityasingh300799" target="_blank">Facebook</a></li>
+<li class="gp"><a href="https://plus.google.com/u/0/104116196371675717078" target="_blank">Google+</a></li>
+</div>
+</div>
+</div>
+
+<br>
+<center>
+<div class="game_container">
+<div class="game_legend">
+<marquee onmouseover="this.stop();" onmouseout="this.start();">TYPING SPEED COUNTER</marquee></div>
+<hr>
+<br>
+<div id="game_rules" style="display:block">
+<br>
+<div class="given_inst" style="font-size:20px;color: #0bacf9;font-weight: bold;">
+Rules :
+</div>
+<br>
+<div class="input_text">
+<ul style="text-align:left">
+ <li>
+ You will be given a small piece of text that will be visible on your screen while you’re typing. </li>
+ <li>
+ Your goal is to type it out as fast as you can, more importantly, type it correctly
+as fast as you can.</li>
+ <li>
+ In case if character in text and character you typed out doesn’t match, the cursor wouldn’t be allowed to move further.</li>
+ <li>
+ The mismatched character will be displayed in RED colour.</li>
+ <li>
+  Once you have finished writing, your typing speed will be calculated and displayed.
+ </li>
+</ul>
+</div>
+<div class="button_holder">
+<input type="submit" value="Next" class="button next" onClick="start_game();">
+</div>
+<br>
+</div>
+
+<div id="game_starter" style="display:none">
+<br>
+<div class="gs_cont">
+<p id="flash"></p>
+<br>
+<div id="name_input">
+<ul>
+<li>
+<input type="text" placeholder="Your good Name Please" id="nam" required autocomplete="off"></li>
+<li>
+<input type="button" value="Submit" class="button nam_submit" onClick="extract()"></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div id="game_controller" style="display:none">
+<div class="given_text" id="give_text">
+
+</div>
+<br>
+<div class="given_inst">
+Now Type The Same Here :
+</div>
+<br>
+<div class="input_text">
+<input type="text" autofocus="on" id="user_text" onkeyup="check();">
+</div>
+</div>
+
+
+<div id="game_result" style="display:none">
+<br>
+<div class="given_inst " style="font-size:20px;color: #0bacf9;font-weight: bold;">
+Result :
+</div>
+<br>
+<div class="input_text result">
+<p style="text-align:left;margin-left:20px;line-height:2em" id="res_cont">
+ 
+</p>
+</div>
+<div class="button_holder">
+<input type="submit" value="Play Again" class="button next pg" onClick=" window.location.reload();">
+</div>
+<br>
+</div>
+
+
+</div>
+</center>
+
+
+
+<br><br><br><br><br><br><br>
+<hr>
+<center>
+<div style="color: #ddd;margin: 10px;padding: 5px;font-family: Kristen ITC;">&copy; Aditya_Singh 2018</div>
+</center>
+</body>
+</html>  

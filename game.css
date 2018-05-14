@@ -1,0 +1,39 @@
+.game_container {font-family:'Kristen ITC';color:#000;margin:10px;padding:20px;position:relative;background:#fff;display:inline-block;width:80vw}
+.game_legend { cursor:pointer;font-size:20px;font-weight:bold}
+#game_rules li {line-height:2.5em}
+.gs_cont {font-size:20px;    color: #fff;
+    font-weight: bold;
+    border: 10px solid #0bacf9;
+    background: #29878c;padding:20px}
+#flash {font-size:25px;text-transform:uppercase;letter-spacing:5px}
+#nam {padding:10px;font-size: 18px;}
+#name_input {height:0px;overflow:hidden;transition:all 0.5s}
+#name_input li {display:inline-block}
+.given_text {background:#efeee9;padding:10px;line-height:2em;border:1px solid #908c7a;color:#596363;font-weight:bold}
+.given_inst {float:left}
+#user_text {font-size: 15px;padding: 10px;margin-top:20px;
+    font-family: 'Kristen ITC';width: 77vw;
+    line-height: 2em;outline:none;font-weight:bold;}
+.button_holder {float:right;margin-right:10px}
+.button {padding:10px;padding-left:20px;padding-right:20px;text-transform:uppercase;background:#eee;margin: 10px;font-weight: bold;
+    outline: none;width: 120px;cursor:pointer;transition:all 0.5s;color: #fff;font-size: 18px;}
+.button:hover {box-shadow:0px 2px 4px 1px #807c7c;}
+.next {
+    border: 3px solid #0bacf9;
+    background: #0bacf9;
+     }
+.nam_submit {background:#fff;color:#0bacf9;border:0px;}
+.nam_submit:hover {transform:scale(1.2)}
+.result b {color:#0bacf9}
+.pg {width:100%}
+@media (max-width: 520px) {
+   .given_text {font-size:12px}
+    #user_text {font-size: 12px;
+    width: 70vw;
+    }
+   #nam {font-size: 12px;}
+   #name_input {margin-left:-40px}
+   .button {font-size:13px}
+   #name_input li {display:initial}
+   textarea {height:430px;}
+}

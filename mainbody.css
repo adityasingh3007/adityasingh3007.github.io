@@ -25,6 +25,9 @@ center {margin-left:-10px}
 b {color:#fff;font-family:'Kristen ITc'}
 ol li {display:block !important;text-align:right}
 .skill li {color:#fff;font-family:'Kristen ITC';padding:10px;font-size:1.5vw;margin-top:20px;display:inline-grid}
+.footer li {display:inline-block}
+.footer a {color:#ddd;transition:all 0.5s}
+.footer a:hover {text-decoration:underline}
 @media (max-width: 520px) {
    .div_head {font-size:6vw}
    .cntnt_list {font-size:5vw;}
