@@ -9,7 +9,7 @@
 #nam {padding:10px;font-size: 18px;}
 #name_input {height:0px;overflow:hidden;transition:all 0.5s}
 #name_input li {display:inline-block}
-.given_text {background:#efeee9;padding:10px;line-height:2em;border:1px solid #908c7a;color:#596363;font-weight:bold}
+.given_text {background:#efeee9;padding:10px;line-height:2em;border:1px solid #908c7a;color:#596363;font-weight:bold;user-select:none;}
 .given_inst {float:left}
 #user_text {font-size: 15px;padding: 10px;margin-top:20px;
     font-family: 'Kristen ITC';width: 77vw;

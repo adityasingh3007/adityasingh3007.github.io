@@ -65,9 +65,10 @@ function check() {
           }
       else
          {
-             document.getElementById("ch_"+len).style.color="green";
-             if(len>=pge.length-1)
-               result();
+           for(j=0;j<=len;j++)
+               document.getElementById("ch_"+j).style.color="green";
+           if(len>=pge.length-1)
+              result();
          }
   hist=incoming;
               }
