@@ -27,23 +27,23 @@ $(document).ready(function(){
   //************************************ */
   $window = $(window);
   $window.scroll(function() {
+    console.log();
     let d_skills = $("#skills").offset().top;
     let d_resume = $("#resume").offset().top;
     let d_about = $("#about").offset().top;
-    if ( $window.scrollTop() >= d_about + 30 ) {
+    if ( $window.scrollTop() >= d_about - 30 ) {
       $(".about_body").css( "visibility", "visible" );
-      $(".about_body").css( "margin-top", "60px" );
       $(".about_body").css( "animation", "grow_from_bottom 2s ease" );
     }
-    if ( $window.scrollTop() >= d_skills+20 ) {
+    if ( $window.scrollTop() >= d_skills- 30 ) {
         $(".sec_3 img").css( "visibility", "visible" );
         $(".sec_3 img").css( "animation", "grow_from_bottom 2s ease" );
     }
-    if ( $window.scrollTop() >= d_resume+20) {
+    if ( $window.scrollTop() >= d_resume - 30) {
       $("#resume_image").css( "visibility", "visible" ).css( "animation", "show_left 2s ease" );
       $("#resume_content").css( "visibility", "visible" ).css( "animation", "show_right 2s ease" );  
     }
-    if ( $window.scrollTop() + $window.height() >= $(document).height()-20)  {
+    if( $window.scrollTop() + $window.height() >= $(document).height() - 50 ) {
       $("#social_1").css( "visibility", "visible" ).css( "animation", "scale_up 0.5s ease" );
       setTimeout(function() {
         $("#social_2").css( "visibility", "visible" ).css( "animation", "scale_up 0.5s ease" );
@@ -55,7 +55,6 @@ $(document).ready(function(){
         $("#social_4").css( "visibility", "visible" ).css( "animation", "scale_up 0.5s ease" );
       },300);
     }
-
   });
 
   //Other functions

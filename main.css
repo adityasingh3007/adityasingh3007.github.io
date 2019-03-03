@@ -214,7 +214,7 @@ li.active>a.h_menu_list::before {
 .sec_2 {
     background: #42d9e4;
     padding-top:100px;
-    height:100%;
+    height:auto;
     color:#fff;
 }
 
@@ -532,7 +532,7 @@ svg path {
 }
 
 .about_body {
-    margin-top:60px;
+    padding-top:60px;
     max-width:800px;
     margin-left:auto;
     margin-right:auto;
