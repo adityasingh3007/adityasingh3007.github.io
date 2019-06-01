@@ -243,7 +243,7 @@ li.active>a.h_menu_list::before {
     background-attachment: fixed;
     background-position: center;
     padding-bottom: 0px;
-    height:100%;
+    height:auto;
 }
 
 .pr_cover {
@@ -549,6 +549,93 @@ p {
     font-weight: bold;
     font-style: italic;
 }
+
+.project_title_cont {
+    margin-top:50px;
+}
+.col {
+    flex: 33%;
+    max-width: 33%;
+    margin-top:30px;
+    transition: all 0.5s ease;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project_wrapper {
+    background: #fff;
+    margin:0px 20px;
+    color:#000;
+    overflow:hidden;
+    box-shadow: 0px 0px 4px 3px rgba(207, 205, 205, 0.72);
+    cursor:pointer;
+}
+
+.container_ {
+    position: relative;
+    max-width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9); /* Black see-through */
+    color: #f1f1f1; 
+    width: 0%;
+    height: 100%;
+    transition: .5s ease;
+    color: white;
+    font-size: 20px;
+    padding: 0px;
+    text-align: center;
+    overflow:hidden;
+}
+
+
+.container_:hover .overlay {
+    width:100%;
+    padding: 20px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.proj_but {
+    display: inline;
+    position: relative;
+    text-align: center;
+    border:2px solid #42d9e4;
+    color: #fff;
+    padding:6px 20px;
+    border-radius: 20px;
+    font-size:14px;
+    top:15px;
+    transition: all 0.5s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.proj_but:hover {
+    background: #42d9e4;
+    color: #000;
+}
+
 @keyframes show_left {
     from {
         margin-left:-500px;
@@ -645,6 +732,10 @@ p {
     .download_res_cont {
         margin-top:-20px;
     }
+    .col {
+        flex: 50%;
+        max-width: 50%;
+    }
 }
 
 @media(max-width:730px) {
@@ -668,6 +759,10 @@ p {
         flex: 50%;
         max-width: 50%;
     }
+    .col {
+        flex: 70%;
+        max-width: 70%;
+    }
 }
 
 @media(max-width:530px) {
@@ -676,6 +771,13 @@ p {
     }
     .intro_card_cont {
         margin-top: -77px;
+    }
+}
+
+@media(max-width:510px){
+    .col {
+        flex: 95%;
+        max-width: 95%;
     }
 }
 
