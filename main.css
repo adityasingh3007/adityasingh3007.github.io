@@ -551,7 +551,7 @@ p {
 }
 
 .project_title_cont {
-    margin-top:50px;
+    margin-top:10px;
 }
 .col {
     flex: 33%;
@@ -629,11 +629,17 @@ p {
     transition: all 0.5s;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    text-decoration: none !important;
+}
+
+a {
+    text-decoration: none !important;
 }
 
 .proj_but:hover {
     background: #42d9e4;
     color: #000;
+    text-decoration: none !important;
 }
 
 @keyframes show_left {

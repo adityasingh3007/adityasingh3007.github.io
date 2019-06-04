@@ -29,6 +29,7 @@ $(document).ready(function(){
   $window.scroll(function() {
     console.log();
     let d_skills = $("#skills").offset().top;
+    let d_projects=$("#projects").offset().top;
     let d_resume = $("#resume").offset().top;
     let d_about = $("#about").offset().top;
     if ( $window.scrollTop() >= d_about - 30 ) {
@@ -38,6 +39,10 @@ $(document).ready(function(){
     if ( $window.scrollTop() >= d_skills- 30 ) {
         $(".sec_3 img").css( "visibility", "visible" );
         $(".sec_3 img").css( "animation", "grow_from_bottom 2s ease" );
+    }
+    if ( $window.scrollTop() >= d_projects- 30 ) {
+      $(".project_title_cont").css( "visibility", "visible" );
+      $(".project_title_cont").css( "animation", "grow_from_bottom 2s ease" );
     }
     if ( $window.scrollTop() >= d_resume - 30) {
       $("#resume_image").css( "visibility", "visible" ).css( "animation", "show_left 2s ease" );
