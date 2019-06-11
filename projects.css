@@ -1,0 +1,34 @@
+.intro_card_con {
+    position: absolute;
+    padding: 10px;
+    top: 50vh;
+    text-align: center;
+    left:50%;
+    margin-left:-183.5px;
+    margin-top: -130px;
+    user-select: none;
+}
+
+.card_desc_ {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #42d9e4;
+}
+
+@media(max-width:950px) {
+    .intro_card_con {
+        margin-left:-148.5px;
+    }
+}
+@media(max-width:650px) {
+    .intro_card_con {
+        margin-left:-124px;
+    }
+}
+
+@media(max-width:530px) {
+    .intro_card_con {
+        margin-left:-99.18px;
+    }
+}
