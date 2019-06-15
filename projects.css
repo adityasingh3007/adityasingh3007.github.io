@@ -16,14 +16,79 @@
     color: #42d9e4;
 }
 
+.projects_cont {
+    z-index: 100;
+    width:100%;
+    height:100%;
+    position: fixed;
+    background:rgba(0,0,0,0.8);
+    top:0;
+    left:0;
+    overflow-y: scroll;
+}
+
+.project_desc_wrapper {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+}
+
+.proj_cont {
+    background: #fff;
+    width:100%;
+    padding:20px;
+    border-radius: 5px;
+}
+
+.proj_name {
+    font-weight: bold;
+    text-align:center;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: ;
+    line-height: 50px;
+    font-family: 'pop';
+    margin-top:20px;
+    margin-bottom:50px;
+    transition: all 0.5s;
+}
+
+.proj_name_small {
+    font-size: 20px;
+    margin:20px 0px;
+    color: #393939;
+    font-family: 'popm';
+}
+
+._credits {
+    color: #ffbf00;
+    margin-top:-5px;
+}
+
+ul {
+    font-family: 'popm';
+}
+
+li{
+     line-height: 2em;
+}
+
 @media(max-width:950px) {
     .intro_card_con {
         margin-left:-148.5px;
+    }
+    .proj_name {
+        font-size: 50px;
     }
 }
 @media(max-width:650px) {
     .intro_card_con {
         margin-left:-124px;
+    }
+    .proj_name {
+        font-size: 40px;
     }
 }
 

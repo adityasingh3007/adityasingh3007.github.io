@@ -16,6 +16,16 @@ function scrollFunction() {
   } 
 }
 
+function check() {
+  var pathname = window.location.href;
+  let index = pathname.indexOf('#');
+  if(index!=-1){
+      let sub=pathname.substring(index+1,pathname.length);
+      console.log(sub);
+      let clc="#"+sub.toLowerCase();
+      $(clc).click();
+  }
+}
 $(document).ready(function(){
   //For shaping the svg
   $("circle").attr("cx",($( window ).width())/2);
@@ -25,6 +35,32 @@ $(document).ready(function(){
   else
     $("circle").attr("r",(($( window ).height())/1.5).toFixed());
   //************************************ */
+  $("a").on('click', function(event) {
+    let str=this.href;
+    let flag=0;
+    flag=str.indexOf("index.htm");
+    if(flag==-1){
+      event.preventDefault();
+      if (this.hash !== "") {
+        let hash = this.hash;
+        $(".projects_cont").css( "display", "block" );
+        $(hash).fadeIn("slow");
+      }
+    }
+  });
+});
+
+$(window).click(function(e){
+   if(e.target.id=="proj_cont_all"){
+     $(".projects_cont").fadeOut("slow");
+     $("#AntBOT").css( "display", "none" );
+     let loc = document.location.href;
+     let index = loc.indexOf('#');
+     if(index!=-1){
+      let sub=loc.substring(index,loc.length);
+      document.location.href = String( document.location.href ).replace( sub, "" );
+     }
+   }
 });
 
 function wrap_loader() {
@@ -34,7 +70,7 @@ function wrap_loader() {
   radius=y.getAttribute("r");
   y.innerHTML="<animate attributeName=\"r\" attributeType=\"XML\" from=\""+radius+"\" to=\"0\" begin=\"0s\" dur=\"0.3s\" fill=\"freeze\" repeatCount=\"once\"/>";
   document.getElementById("main").style.visibility="visible";
-  setTimeout(function(){x.style.display="none";},300);
+  setTimeout(function(){x.style.display="none";check();},300);
 }
 
 function show_sidebar() {

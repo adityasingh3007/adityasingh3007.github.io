@@ -21,7 +21,14 @@ a {
     font-family:os;
     src: url("./OpenSans.ttf");
 }
-
+@font-face {
+    font-family:pop;
+    src: url("./PoppinsBold.ttf");
+}
+@font-face {
+    font-family:popm;
+    src: url("./PoppinsMedium.ttf");
+}
 @font-face {
     font-family:rb;
     src: url("./Roboto.ttf");
