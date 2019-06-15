@@ -37,9 +37,9 @@ $(document).ready(function(){
   //************************************ */
   $("a").on('click', function(event) {
     let str=this.href;
-    let flag=0;
     flag=str.indexOf("index.htm");
-    if(flag==-1){
+    git=str.indexOf("github.com");
+    if(flag==-1 && git==-1){
       event.preventDefault();
       if (this.hash !== "") {
         let hash = this.hash;
@@ -54,6 +54,7 @@ $(window).click(function(e){
    if(e.target.id=="proj_cont_all"){
      $(".projects_cont").fadeOut("slow");
      $("#AntBOT").css( "display", "none" );
+     $("#PortableBraille").css( "display", "none" );
      let loc = document.location.href;
      let index = loc.indexOf('#');
      if(index!=-1){
