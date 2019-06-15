@@ -55,6 +55,7 @@ $(window).click(function(e){
      $(".projects_cont").fadeOut("slow");
      $("#AntBOT").css( "display", "none" );
      $("#PortableBraille").css( "display", "none" );
+     $("#GestureControlled").css( "display", "none" );
      let loc = document.location.href;
      let index = loc.indexOf('#');
      if(index!=-1){
