@@ -64,14 +64,17 @@ $(document).ready(function(){
 
   //Other functions
   $("a").on('click', function(event) {
-    if (this.hash !== "") {
+    let href=this.href
+    if(href.indexOf("index.htm")!=-1){
       event.preventDefault();
-      let hash = this.hash;
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-        window.location.hash = hash;
-      });
+      if (this.hash !== "") {
+        let hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+          window.location.hash = hash;
+        });
+      }
     }
   });
 });
