@@ -21,7 +21,6 @@ function check() {
   let index = pathname.indexOf('#');
   if(index!=-1){
       let sub=pathname.substring(index+1,pathname.length);
-      console.log(sub);
       let clc="#"+sub.toLowerCase();
       $(clc).click();
   }
@@ -37,6 +36,7 @@ $(document).ready(function(){
   //************************************ */
   $("a").on('click', function(event) {
     let str=this.href;
+    console.log(str);
     flag=str.indexOf("index.htm");
     git=str.indexOf("github.com");
     if(flag==-1 && git==-1){
@@ -53,6 +53,7 @@ $(document).ready(function(){
 $(window).click(function(e){
    if(e.target.id=="proj_cont_all"){
      $(".projects_cont").fadeOut("slow");
+     $("#FishBOT").css( "display", "none" );
      $("#AntBOT").css( "display", "none" );
      $("#PortableBraille").css( "display", "none" );
      $("#GestureControlled").css( "display", "none" );
