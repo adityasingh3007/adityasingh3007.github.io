@@ -253,6 +253,17 @@ li.active>a.h_menu_list::before {
     height:auto;
 }
 
+.sec_2 {
+    padding-top: 0;
+    background: url('./Aboutbanner.jpg');
+    background-size: cover;
+    width:100%;
+    background-attachment: fixed;
+    background-position: center;
+    padding-bottom: 0px;
+    height:auto;
+}
+
 .pr_cover {
     padding-top: 100px;
     background:rgba(0,0,0,0.8);
@@ -637,6 +648,11 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     text-decoration: none !important;
+}
+
+.skills_add {
+    display:block;
+    margin-top: 40px;
 }
 
 a {
