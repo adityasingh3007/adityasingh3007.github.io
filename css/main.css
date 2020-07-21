@@ -9,6 +9,7 @@ html,body {
     font-family: 'os';
     position: relative;
     min-width: 320px !important;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -748,6 +749,11 @@ a {
     text-decoration: none !important;
 }
 
+.interested {
+    margin:10px;
+    word-wrap: break-word;
+}
+
 @keyframes show_left {
     from {
         margin-left:-500px;
@@ -890,6 +896,14 @@ a {
     .col {
         flex: 70%;
         max-width: 70%;
+    }
+}
+@media(max-width:570px){
+    .interested{
+        width:230px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
     }
 }
 @media(max-width:510px){
