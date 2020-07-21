@@ -241,6 +241,7 @@ li.active>a.h_menu_list::before {
     background: #fff;
     height:auto;
     color:#000;
+    padding-top: 50px;
 }
 
 .sec_2 svg {
@@ -277,7 +278,8 @@ li.active>a.h_menu_list::before {
     color:#fff;
 }
 .sec_3 {
-    background:rgba(233, 235, 238,0.7)
+    background:rgba(233, 235, 238,0.7);
+    padding-top: 80px;
 }
 
 .sec_4 {
