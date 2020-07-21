@@ -18,19 +18,19 @@ a {
 
 @font-face {
     font-family:os;
-    src: url("./OpenSans.ttf");
+    src: url("../fonts/OpenSans.ttf");
 }
 @font-face {
     font-family:pop;
-    src: url("./PoppinsBold.ttf");
+    src: url("../fonts/PoppinsBold.ttf");
 }
 @font-face {
     font-family:popm;
-    src: url("./PoppinsMedium.ttf");
+    src: url("../fonts/PoppinsMedium.ttf");
 }
 @font-face {
     font-family:rb;
-    src: url("./Roboto.ttf");
+    src: url("../fonts/Roboto.ttf");
 }
 
 .main_container {
@@ -159,7 +159,7 @@ li.active>a.h_menu_list::before {
     color: #fff;
     width: 100%;
     background-image: linear-gradient(#eef5fd,#0099ff);
-    background: url("./landing.svg") no-repeat;   /* background by SVGBackgrounds.com */
+    background: url("../assets/landing.svg") no-repeat;   /* background by SVGBackgrounds.com */
     perspective: 40px;
 }
 
@@ -175,7 +175,7 @@ li.active>a.h_menu_list::before {
     position: absolute;
     width: 50%;
     height: 100%;
-    background-image: url('./coder.png');
+    background-image: url('../assets/coder.png');
     background-position: center center;
     background-repeat: no-repeat;
     left: 0;
@@ -282,7 +282,7 @@ li.active>a.h_menu_list::before {
 
 .sec_4 {
     padding-top: 0;
-    background: url('./projects.jpg');
+    background: url('../assets/projects.jpg');
     background-size: cover;
     width:100%;
     background-attachment: fixed;

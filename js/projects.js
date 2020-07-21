@@ -52,7 +52,7 @@ function scrollSpy(){
 function validateURL(){
   let hash = window.location.hash;
   if (hash !== "") {
-    if(hash=="#projects"){
+    if(hash=="#projects" || hash=="#home"){
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 800, function(){
@@ -81,7 +81,7 @@ $(document).ready(function(){
       if (this.hash !== "") {
         let hash = this.hash;
         //console.log(hash)
-        if(hash=="#projects"){
+        if(hash=="#projects" || hash=="#home"){
           $('html, body').animate({
             scrollTop: $(hash).offset().top
           }, 800, function(){
