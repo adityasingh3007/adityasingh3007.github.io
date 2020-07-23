@@ -8,8 +8,8 @@ html,body {
     width:100%;
     font-family: 'os';
     position: relative;
-    min-width: 320px !important;
     scroll-behavior: smooth;
+    min-width:370px !important;
 }
 
 a {
@@ -917,19 +917,6 @@ a {
     .column {
         flex: 100%;
         max-width: 100%;
-    }
-}
-
-@media(max-width:360px) {
-    .card_name {
-        font-size:30px;
-    }
-    .card_desc {
-        margin-right: -20px;
-        font-size: 12px;
-    }
-    .intro_card_cont {
-        margin-top: -60.5px;
     }
 }
 

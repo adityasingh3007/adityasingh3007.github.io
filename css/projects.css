@@ -4,7 +4,7 @@
     top: 50vh;
     text-align: center;
     left:50%;
-    margin-left:-158.775px;
+    margin-left:-183.775px;
     margin-top: -130px;
     user-select: none;
 }
@@ -107,6 +107,9 @@ li{
 @media(max-width:950px) {
     .proj_name {
         font-size: 50px;
+    }
+    .intro_card_con{
+        margin-left: -158.775px;
     }
 }
 @media(max-width:650px) {

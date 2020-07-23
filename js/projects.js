@@ -37,7 +37,8 @@ function check() {
 function scrollSpy(){
     let d_projects=$("#projects").offset().top;
     if ( $(window).scrollTop() >= d_projects- 50 ) {
-      $(".project_title_cont").each(function(i, el) {
+      $(".project_wrapper").each(function(i, el) {
+        console.log("aasasa");
         var el = $(el);
         if (el.visible(true)) {
           el.css( "visibility", "visible" );
