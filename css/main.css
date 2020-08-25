@@ -708,13 +708,13 @@ p {
 }
 
 .text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: relative;
+    width:100%;
+    top:50%;
+    left:50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    white-space: nowrap;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
